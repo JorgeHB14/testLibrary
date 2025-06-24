@@ -2,6 +2,7 @@
 #'
 #' @param string A character vector with one element
 #' @param pattern what to split on
+#' @param n numer of objects to divide in.
 #'
 #' @return A character vector
 #' @export

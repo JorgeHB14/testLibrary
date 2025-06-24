@@ -10,6 +10,8 @@ str_split_one(string, pattern, n = Inf)
 \item{string}{A character vector with one element}
 
 \item{pattern}{what to split on}
+
+\item{n}{numer of objects to divide in.}
 }
 \value{
 A character vector
