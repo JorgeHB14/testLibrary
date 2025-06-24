@@ -19,5 +19,5 @@ Split string
 }
 \examples{
 x <- "alpha,beta"
-strplit(x, ",")
+strsplit(x, ",")
 }
