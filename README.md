@@ -27,7 +27,7 @@ library(testLibrary)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
+What is special aboute using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
 
 ``` r
