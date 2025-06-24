@@ -1,14 +1,15 @@
 #' Split string
 #'
-#' @param x A character vecor with one element
-#' @param split what to split in
+#' @param string A character vector with one element
+#' @param pattern what to split on
 #'
 #' @return A character vector
 #' @export
 #'
 #' @examples
 #' x <- "alpha,beta"
-#' strsplit(x, ",")
+#' str_split_one(x, pattern=",")
+#' str_split_one(x, pattern=",", n=2)
 str_split_one <- function(string, pattern, n=Inf) {
 
   stopifnot(is.character(string), length(string)<=1)
